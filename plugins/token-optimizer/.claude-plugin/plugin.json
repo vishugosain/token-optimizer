@@ -1,6 +1,6 @@
 {
   "name": "token-optimizer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Cut Claude Code token usage: context and read guards, cheap-model delegation, and a content-free usage audit.",
   "author": {
     "name": "Vishal Gosain"

@@ -6,7 +6,7 @@ A Claude Code plugin that cuts token usage. It targets the patterns that actuall
 - whole-file reads and huge command output filling the context
 - sessions left open for days
 
-**Status:** v0.1.0, early pilot. Feedback welcome.
+**Status:** v0.1.1, early pilot. Feedback welcome.
 
 ## Install
 

@@ -2,6 +2,7 @@
 
 Plan first
 - Feature work or a bug fix: investigate, present a plan, and wait for approval before editing files. Pure questions need no plan.
+- Confirm scope before a large execution. A shaky direction should die in a short scoping exchange, not thousands of messages in.
 
 Models and sub-agents
 - Keep the main session for analysis, planning and hard reasoning. For mechanical or low-judgment steps (renames, find-and-replace, formatting, counting, summaries, docs), ask the user before handing them to `token-optimizer:rename-helper` or `token-optimizer:doc-writer` (both Haiku).
@@ -24,3 +25,4 @@ Session length
 
 Other sessions
 - Never message or spawn other sessions on your own; ask the user which session, every time.
+- Hand work off through a file (or memory) plus a task the user starts in a fresh session, not live session-to-session messages.
