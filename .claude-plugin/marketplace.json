@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "token-optimizer",
+  "description": "Cut Claude Code token usage: context and read guards, cheap-model delegation, and a content-free usage audit.",
+  "owner": {
+    "name": "Vishal Gosain"
+  },
+  "plugins": [
+    {
+      "name": "token-optimizer",
+      "description": "Cut Claude Code token usage: context and read guards, cheap-model delegation, and a content-free usage audit.",
+      "source": "./plugins/token-optimizer",
+      "category": "productivity",
+      "version": "0.1.0"
+    }
+  ]
+}
