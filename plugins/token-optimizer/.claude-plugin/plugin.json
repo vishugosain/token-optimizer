@@ -5,5 +5,12 @@
   "author": {
     "name": "Vishal Gosain"
   },
-  "keywords": ["tokens", "cost", "context", "usage", "productivity"]
+  "keywords": [
+    "tokens",
+    "cost",
+    "context",
+    "usage",
+    "productivity"
+  ],
+  "license": "MIT"
 }

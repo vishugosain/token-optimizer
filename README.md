@@ -64,3 +64,7 @@ claude plugin uninstall token-optimizer@token-optimizer
 ```
 
 Also remove any `TOKEN_OPT_*` keys you added to `env`. Hook state lives in `~/.claude/token-optimizer/` and is safe to delete.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
